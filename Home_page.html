@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+<head>
+<style>
+h1 {text-align: center;}
+    mark {
+      background-color:#f5227b;
+      color: black;
+      font-family:Brush Script MT;
+      font-size: 40px;
+    </style>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="nav-link" href="file:///Users/bootstrap5/Desktop/KinleyZam%20/Home_page.html"> <b>HOME</b> <span class="sr-only">(current)</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="file:///Users/bootstrap5/Desktop/KinleyZam%20/About_Page.html">ABOUT<span class="sr-only">(current)</span></a>
+          </li>
+          <li>
+          <select class="custom-select"
+                      style="width:180px;">
+                  <option>Biology</option>
+                  <option>Chemistry</option>
+                  <option>Dzongkha</option>
+                  <option>Mathematics</option>
+                  <option>Physics</option>
+                  <option value="none" selected disabled hidden>
+                      Domain Highlights
+                  </option>
+              </select>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <div id="hero">
+    </head>
+    <body>
+    <h1><mark> Highlights Of The Week</mark></h1>
+    <header>
+      <div class="overlay"></div>
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="/Users/bootstrap5/Desktop/Images/Nature Beautiful short video 720p HD.mp4" type="video/mp4">
+      </video>
+    </header>
+
+    <section class="my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+
+          </div>
+        </div>
+      </div>
+    </section>
+<style>
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: absolute;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+</style>
+    </body>
+    <section>
+
+
+    </section>
+    </html>
